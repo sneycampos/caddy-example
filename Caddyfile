@@ -1,0 +1,4 @@
+localhost {
+    reverse_proxy nginx:8080
+    file_server
+}
